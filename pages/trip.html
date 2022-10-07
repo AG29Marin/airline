@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <title>Aether Book Flight</title>
+</head>
+<body>
+    <header class="flight-page">
+        <nav>
+            <div class="logo">
+                <p><a href="../index.html">Aether</a></p>
+            </div>
+            <div class="pages">
+                <a href="../index.html">Home</a>
+                <a href="../pages/contact.html">Contact</a>
+                <a href="../pages/signup.html">Sign Up</a>
+            </div>
+        </nav>       
+    </header>
+    <main class="flight-page">
+        <section class="book">
+            <form class="flight-form" method="POST">
+                <h1>Book a Flight</h1>
+                <fieldset class="city">
+                    <label>From:</label>
+                    <input type="text" name="city" placeholder="City or Airport" required>
+
+                    <label>To:</label>
+                    <input type="text" name="city" placeholder="City or Airport" required>
+                </fieldset>
+                <fieldset class="date">
+                    <label>Departing</label>
+                    <input type="date" required>
+
+                    <label>Returning</label>
+                    <input type="date" required>
+                </fieldset>
+                <fieldset class="person">
+                    <label>Adults</label>
+                    <input type="number" placeholder="1" required>
+                </fieldset>
+                <button type="button" class="flight">See Flights</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy</p>
+    </footer>
+</body>
+</html>
