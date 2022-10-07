@@ -91,6 +91,10 @@ button {
     border-radius: 10px;
 }
 
+button:hover {
+    color:bisque;
+}
+
 .hero-image img{
     margin-top: 18%;
     max-width: 600px;
