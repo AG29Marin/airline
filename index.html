@@ -9,72 +9,76 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <p><a href="#">Aether</a></p>
-            </div>
-            <div class="pages">
-                <a href="./pages/trip.html">Book Flight</a>
-                <a href="./pages/contact.html">Contact</a>
-                <a href="./pages/signup.html">Sign Up</a>
-            </div>
+        <p class="logo"><a href="#">Aether</a></p>
+        <nav class="pages">
+            <ul>
+                <li><a href="./pages/trip.html">Book Flight</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="./pages/signup.html">Sign Up</a></li>
+            </ul>
         </nav>       
     </header>
     <main>
-        <div class="section-cnt">
-            <section class="hero">
-                <div class="title">
-                    <h1>Planning a trip?</h1>
-                    <p>Let us take you on an unforgetable one! <br>Sign up and check out our best offers.</p>
-                    <button onclick="window.location.href='./pages/signup.html'">Sign Up</button>
-                </div>
-                <div class="hero-image"> 
-                    <img src="./images/airplane.jpg" alt="Photo of an airplane">
-                </div> 
+        <article class="hero">
+            <section class="title_container">
+                <h1 class="title">Planning a trip?</h1>
+                <p class="subtitle">Let us take you on an unforgetable one! <br>Sign up and check out our best offers.</p>
+                <button onclick="window.location.href='./pages/signup.html'">Sign Up</button>
             </section>
-        </div>
-        <section class="info">
-            <h1 class="info-title">Our Best Offers</h1>
-            <div class="info-cnt">
+            <section class="img_container">
+                <img class="hero-image" src="./images/airplane.jpg" alt="Photo of an airplane">
+            </section>
+        </article>
+        <article class="info">
+            <h2 class="info-title">Our Best Offers</h2>
+            <section class="info-cnt">
                 <figure>
                     <a href="./pages/trip.html">
                         <img src="./images/london.jpg" alt="Photo of London">
-                        <figcaption>Book a flight to London.</figcaption>
                     </a>
+                        <figcaption>
+                            <p>Book a flight to London.</p>
+                        </figcaption>
                 </figure>
                 <figure>
                     <a href="./pages/trip.html">
                         <img src="./images/athens.jpg" alt="Photo of Athens">
-                        <figcaption>Book a flight to Athens.</figcaption>
                     </a>
+                        <figcaption>
+                            <p>Book a flight to Athens.</p>
+                        </figcaption>
                 </figure>
                 <figure>
                     <a href="./pages/trip.html">
                         <img src="./images/paris.jpg" alt="Photo of Paris">
-                        <figcaption>Book a flight to Paris.</figcaption>
                     </a>
+                        <figcaption>
+                            <p>Book a flight to Paris.</p>
+                        </figcaption>
                 </figure>
                 <figure>
                     <a href="./pages/trip.html">
                         <img src="./images/vienna.jpg" alt="Photo of Vienna">
-                        <figcaption>Book a flight to Vienna.</figcaption>
                     </a>
+                        <figcaption>
+                            <p>Book a flight to Vienna.</p>
+                        </figcaption>
                 </figure>
-            </div>
-        </section>
+            </section>
+        </article>
         <section class="quote">
-            <blockquote>“Of all the books in the world. The best stories are found between the pages of a passport.”</blockquote>
+            <blockquote>
+                <h6>“Of all the books in the world. The best stories are found between the pages of a passport.”</h6>
+            </blockquote>
             <cite class="author">-Unknown</cite>
         </section>
-        <section class="action">
-            <div class="action-ctn">
-                <div class="text">
-                    <h2>Where is your destination?</h2>
-                    <p>Sign up to get the best flight offers!</p>
-                </div>
-                <button class="action-btn" onclick="window.location.href='./pages/signup.html'">Sign up</button>
-            </div>
-        </section>
+        <article class="action">
+            <section class="action-ctn">
+                <h2 class="text">Where is your destination?</h2>
+                <p class="text">Sign up to get the best flight offers!</p>
+            </section>
+            <button class="action-btn" onclick="window.location.href='./pages/signup.html'">Sign up</button>
+        </article>
     </main>
     <footer>
         <p>Copyright &copy</p>
